@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cabe {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.pj {
+  text-align: center;
+}
+
+p {
+  cursor: pointer;
+  display: inline;
+  margin-left: 30px;
+  border-bottom: 1px solid black;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#image {
+  display: flex;
+  justify-content: center;
+  height: 43vh;
+  align-items: center;
+}
+
+#status,
+#species,
+#origen {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+
+.botones button {
+  margin-left: 14px;
+  padding: 14px;
+}
